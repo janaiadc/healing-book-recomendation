@@ -1,0 +1,81 @@
+Css
+/* div{
+        border : 2px solid purple
+
+    }   */
+
+.bg-soft-gray {
+  background-color: #d4d2d2;
+  /* สีเทาอ่อน */
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+.bg-dark-green {
+  color: #436814;
+  /* ตัวอักษรสีน้ำเงินแบบสดใส */
+}
+
+.indent-first-line {
+  text-indent: 60px;
+  /* เยื้องบรรทัดแรก 30 พิกเซล */
+}
+
+
+.text-center-div {
+  text-align: center;
+  /* จัดตัวอักษรให้อยู่ตรงกลางแนวนอน */
+  display: flex;
+  /* ใช้ flexbox เพื่อจัดแนวเนื้อหา */
+  flex-direction: column;
+  justify-content: center;
+  /* จัดให้อยู่กลางแนวตั้ง (ถ้าความสูงกำหนดไว้) */
+  align-items: center;
+  /* จัดให้อยู่กลางแนวนอน */
+}
+
+.bg-purple-dark {
+  color: #8f1e72;
+  /* เหลืองคับพี่ */
+}
+
+.bg-soft-gray {
+  background-color: #e8e5e5;
+  /* สีเทาอ่อน */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Mali', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #333;
+  /* สีตัวอักษรสามารถปรับได้ตามธีม */
+  margin: 0.5em 0;
+}
+
+p {
+  font-family: 'Mali', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1em;
+}
+
+ .mali-text {
+      font-family: 'Mali', sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
